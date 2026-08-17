@@ -1,0 +1,89 @@
+-- CREATE TABLE companies (
+--     symbol TEXT PRIMARY KEY,
+--     company_name TEXT,
+--     company_logo TEXT,
+--     about_company TEXT,
+--     website TEXT,
+--     nse_url TEXT,
+--     bse_url TEXT,
+--     face_value NUMERIC,
+--     book_value NUMERIC,
+--     roce NUMERIC,
+--     roe NUMERIC,
+--     sector TEXT,
+--     sub_sector TEXT
+-- );
+-- select * from companies;
+-- SELECT COUNT(*) FROM companies;
+
+-- CREATE TABLE analysis (
+--     symbol TEXT,
+--     period TEXT,
+--     sales_growth NUMERIC,
+--     profit_growth NUMERIC,
+--     stock_cagr NUMERIC,
+--     roe NUMERIC
+-- );
+-- select * from analysis;
+-- SELECT COUNT(*) FROM analysis;
+
+-- CREATE TABLE balancesheet (
+--     symbol TEXT,
+--     year TEXT,
+--     fiscal_year INT,
+--     equity_capital NUMERIC,
+--     reserves NUMERIC,
+--     borrowings NUMERIC,
+--     other_liabilities NUMERIC,
+--     total_liabilities NUMERIC,
+--     fixed_assets NUMERIC,
+--     cwip NUMERIC,
+--     investments NUMERIC,
+--     other_assets NUMERIC,
+--     total_assets NUMERIC,
+--     debt_to_equity NUMERIC
+-- );
+-- select * from balancesheet;
+-- SELECT COUNT(*) FROM balancesheet;
+
+-- CREATE TABLE cashflow (
+--     symbol TEXT,
+--     year TEXT,
+--     fiscal_year INT,
+--     operating_activity NUMERIC,
+--     investing_activity NUMERIC,
+--     financing_activity NUMERIC,
+--     net_cash_flow NUMERIC,
+--     free_cash_flow NUMERIC
+-- );
+-- select * from cashflow;
+-- SELECT COUNT(*) FROM cashflow;
+
+-- CREATE TABLE profitloss (
+--     symbol TEXT,
+--     year TEXT,
+--     fiscal_year INT,
+--     sales NUMERIC,
+--     expenses NUMERIC,
+--     operating_profit NUMERIC,
+--     opm_percentage NUMERIC,
+--     net_profit NUMERIC,
+--     eps NUMERIC,
+--     dividend_payout NUMERIC,
+--     net_profit_margin NUMERIC,
+--     expense_ratio NUMERIC,
+--     interest_coverage NUMERIC
+-- );
+-- select * from profitloss;
+-- SELECT COUNT(*) FROM profitloss;
+
+-- CREATE TABLE prosandcons (
+--     id INT,
+--     company_id VARCHAR(20),
+--     pros TEXT,
+--     cons TEXT
+-- );
+-- SELECT * FROM prosandcons;
+
+-- SELECT * FROM prosandcons
+-- LIMIT 10;
